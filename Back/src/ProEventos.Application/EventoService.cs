@@ -104,7 +104,7 @@ namespace ProEventos.Application
 
                 if(evento == null) return null;
 
-                return evento;
+                return evento;  
             }
             catch (Exception ex)
             {

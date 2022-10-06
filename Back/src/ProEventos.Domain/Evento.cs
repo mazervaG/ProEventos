@@ -8,13 +8,13 @@ namespace ProEventos.Domain
     {
         public int Id { get; set; }
         public string Local { get; set; }
-        public DateTime? DataEvento { get; set; }
+        public DateTime? dataevento { get; set; }
         public string Tema { get; set; }
-        public int QtdPessoas { get; set; }
-        public string ImagemURL { get; set; }
+        public int qtdpessoas { get; set; }
+        public string imagemurl { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
-        public IEnumerable<Lote> Lotes { get; set; }
+        public IEnumerable<Lote> lotes { get; set; }
         public IEnumerable<RedeSocial> RedesSociais { get; set; }
         public IEnumerable<PalestranteEvento> PalestrantesEventos { get; set; }
     }
